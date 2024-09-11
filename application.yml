@@ -1,1 +1,3 @@
-welcome: Welcome
+spring:
+  config:
+    import: http://localhost:8888
