@@ -1,3 +1,4 @@
-spring:
-  config:
-    import: http://localhost:8888
+eureka:
+  client:
+    service-url:
+      defualt-zone: http://localhost:8761
