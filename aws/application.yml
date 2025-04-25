@@ -1,6 +1,6 @@
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: http://www.gnr.com:8761/eureka,http://www.gnr.com:8762/eureka
+aws:
+  secretsmanager:
+    host: ${AWS_SECRETS_MANAGER_HOST}
+    accesskey: ${AWS_SECRETS_MANAGER_ACCESS_KEY}
+    secretkey: ${AWS_SECRETS_MANAGER_SCRET_KEY}
+    region: ${AWS_SECRETS_MANAGER_REGION}
