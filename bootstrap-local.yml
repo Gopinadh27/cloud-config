@@ -1,0 +1,10 @@
+aws:
+  secretsmanager:
+    host: ${AWS_SECRETS_MANAGER_HOST}
+    accesskey: ${AWS_SECRETS_MANAGER_ACCESS_KEY}
+    secretkey: ${AWS_SECRETS_MANAGER_SCRET_KEY}
+    region: ${AWS_SECRETS_MANAGER_REGION}
+
+spring:
+  application:
+    name: ${APP_NAME:UNKNOWN}-${spring.profiles.active:UNKNOWN}
