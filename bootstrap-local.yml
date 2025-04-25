@@ -5,6 +5,5 @@ aws:
     secretkey: ${AWS_SECRETS_MANAGER_SCRET_KEY}
     region: ${AWS_SECRETS_MANAGER_REGION}
 
-spring:
-  application:
-    name: ${APP_NAME:UNKNOWN}-${spring.profiles.active:UNKNOWN}
+  profile:
+    msg: 'Activated local profile'
