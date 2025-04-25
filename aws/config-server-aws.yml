@@ -1,0 +1,2 @@
+app:
+  message: message from config-server-aws.yml
