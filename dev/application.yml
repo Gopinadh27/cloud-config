@@ -1,0 +1,6 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://www.gnr.com:8761/eureka,http://www.gnr.com:8762/eureka
